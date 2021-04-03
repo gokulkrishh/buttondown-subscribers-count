@@ -1,0 +1,21 @@
+{
+  "name": "buttondown-subscribers-count",
+  "version": "1.0.0",
+  "description": "A simple API to get subscribers count in buttondown.email newsletter",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokulkrishh/buttondown-subscribers-count.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gokulkrishh/buttondown-subscribers-count/issues"
+  },
+  "homepage": "https://github.com/gokulkrishh/buttondown-subscribers-count#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
