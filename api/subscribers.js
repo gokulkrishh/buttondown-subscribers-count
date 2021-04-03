@@ -27,7 +27,7 @@ module.exports = allowCors((_, res) => {
 
   fetch(`https://api.buttondown.email/v1/subscribers`, options)
     .then((response) => response.json())
-    .then(({ count = '90+' }) => {
+    .then(({ count = '' }) => {
       res.json({ total: count });
     })
     .catch((error) => {
