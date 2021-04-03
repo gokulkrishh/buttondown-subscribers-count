@@ -7,7 +7,7 @@ A simple API to get the total number of subscribers in [buttondown.email](button
 ### Setup
 
 1. Clone this repo.
-2. Setup your buttondown `API key` in `1process.env.BUTTONDOWN_API_KEY`.
+2. Setup your buttondown `API key` in `process.env.BUTTONDOWN_API_KEY`.
 3. Deploy it to vercel or any other services.
 
 ##### MIT Licensed
